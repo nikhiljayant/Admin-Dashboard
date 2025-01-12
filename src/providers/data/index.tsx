@@ -1,4 +1,5 @@
 import { GraphQLClient } from "@refinedev/nestjs-query";
+import { fetchWrapper } from "./fetch-wrapper";
 
 export const API_URL = "https://api.crm.refine.dev";
 
@@ -11,3 +12,5 @@ export const client = new GraphQLClient(API_URL, {
     }
   },
 });
+
+// 23:22
